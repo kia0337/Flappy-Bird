@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "FlappyBird";
+    src: url(../font/FlappyBirdRegular.ttf);
+}
+
+body {
+    background: #558ebd;
+}
+
+canvas {
+    margin-top: 25px;
+    border: 3px solid rgb(15, 14, 14);
+    border-radius: 5px;
+}
+
+.game__container {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.canvas__field {
+    border: 5px solid #1f1f1c;
+    box-shadow: 5px 5px 30px 10px #1f1f1c;
+    background-color: #39accf;
+}
